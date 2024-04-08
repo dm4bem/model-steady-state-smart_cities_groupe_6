@@ -11,3 +11,13 @@ H=3
 w=0.2
 lambda=1.7
 
+
+def Rext(x) :
+  a = Rconv_i (x) + Rcondext (x)
+  return a
+
+def R (x,y) :
+  a = Rconv_i (x) + Rconv_i (y) + Rcond (x,y)
+  return a
+
+
