@@ -10,7 +10,14 @@ l=3
 H=3
 w=0.2
 lambda=1.7
+E=400
+ho=25
+hi=8
 
+Rcd1=w/(lambda*(L+l))
+Rcd2=w/(lambda*L)
+Rcd3=Rcd1
+Rcd4=w/(3*L+2*l)
 
 def Rext(x) :
   a = Rconv_i (x) + Rcondext (x)
