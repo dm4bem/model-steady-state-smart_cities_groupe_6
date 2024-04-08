@@ -17,9 +17,11 @@ hi=8
 Rcd1=w/(lambda*(L+l))
 Rcd2=w/(lambda*L)
 Rcd3=Rcd1
-Rcd4=w/(3*L+2*l)
+Rcd4=w/(lambda*(3*L+2*l))
 Rcvo1=1/(h0*(L+l))
 Rcvo2=1/(ho*L)
+Rcvo3=Rcvo1
+Rcvo4=1/(h0*(3*L+2*l))
 
 def Rext(x) :
   a = Rconv_i (x) + Rcondext (x)
